@@ -12,6 +12,13 @@ Heap-based Prim (dsa-168) would push O(n²) edges and pay a log factor for nothi
 
 **Complexity:** O(n²) time, O(n) space.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
